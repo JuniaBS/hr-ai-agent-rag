@@ -67,27 +67,33 @@ Usuário
 
 ### Arquitetura Completa do Agente
 
-Fluxo principal do projeto contendo Telegram, AI Agent, memória, Vector Store, MySQL e envio das respostas.
+![Arquitetura Completa](imagens/fluxo_completo.jpg)
 
-[Inserir imagem: 01-fluxo-completo.png]
+Fluxo principal do projeto contendo Telegram Trigger, AI Agent, memória conversacional, Vector Store, MySQL e envio das respostas ao usuário.
+
+---
 
 ### Consulta sobre Política de Férias
 
-Exemplo de pergunta respondida pelo agente a partir da base de conhecimento indexada através de RAG.
+![Consulta sobre Férias](imagens/ia%20funcionando.jpg)
 
-[Inserir imagem: 02-rag-politica-ferias.png]
+Exemplo de pergunta respondida pelo agente utilizando RAG (Retrieval-Augmented Generation), buscando informações na base de conhecimento indexada.
+
+---
 
 ### Guardrail - Pergunta Fora do Contexto
 
-Demonstração da restrição do agente para assuntos relacionados exclusivamente ao RH, evitando respostas fora do domínio.
+![Guardrail](imagens/pergunta-fora-contexto.jpg)
 
-[Inserir imagem: 03-guardrail.png]
+Demonstração da restrição do agente a assuntos relacionados ao RH, evitando respostas fora do domínio definido.
+
+---
 
 ### Conversa no Telegram
 
-Exemplo de interação do usuário com o agente utilizando linguagem natural através do Telegram.
+![Conversa no Telegram](imagens/chat_telegram.jpg)
 
-[Inserir imagem: 04-telegram-chat.png]
+Exemplo de interação do usuário com o agente através do Telegram, incluindo consulta de informações e respostas contextualizadas.
 
 ## Resultado
 
