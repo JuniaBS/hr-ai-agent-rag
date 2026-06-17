@@ -1,4 +1,4 @@
-# HR2 Buddy - Agente de IA para RH
+# HR Buddy - Agente de IA para RH
 
 ## Objetivo
 
